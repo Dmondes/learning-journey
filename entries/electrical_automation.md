@@ -48,3 +48,20 @@ The goal: to clearly understand each concept, write notes in my own words, and t
 💡 **Checkpoint:**
 - If you want to confirm the **Login button still works** → Automation (Regression Test).
 - If you want to check if the **Login page design is clear** → Manual (UI Testing).
+
+# Concept 3: The Automation "Toolbox" (Frameworks & Languages)
+
+You can’t build a robot out of thin air. You need **parts, tools, and an instruction manual**.
+In software automation, these are programming languages and frameworks.
+
+---
+
+### 1. The Programming Language (The Robot’s Language)
+- The language you use to write instructions for your automation robot.
+- Examples: **Java, Python, C#**.
+- Just like humans speak English or Spanish, a computer "understands" Java or Python.
+
+**Example instruction in Python:**
+```python
+if button.color == 'blue':
+    button.click()
