@@ -30,7 +30,7 @@ Key Frameworks:
 Selenium: The industry standard for automating web browsers.
 Appium: The industry standard for automating mobile applications.
 Check Your Understanding
-Mentor's Question: You need to write a test that automatically logs into Yokogawa's company website.
+Mentor's Question: You need to write a test that automatically logs into company website.
 Which framework would you use? Why?
 What is the role of the programming language in this task?
 My Refined Answer:
@@ -67,11 +67,11 @@ How would you ensure the app won't crash when 50,000 users log in on payday?
 My Refined Answer:
 I would use an API testing tool like Postman. I would make a GET request to the specific API endpoint and verify that the response status is 200 and that the correct balance is shown in the response payload.
 This requires performance testing. I would use a tool like JMeter to simulate the load of 50,000 virtual users logging in simultaneously to identify performance bottlenecks.
-Concept 7: The "What" - Yokogawa's Products
-Core Idea: Based on the tools in the job description (Selenium, Appium, Postman), the role is likely focused on the modern software layers that connect to Yokogawa's core industrial systems.
+Concept 7: The "What" - Products
+Core Idea: Based on the tools in the job description (Selenium, Appium, Postman), the role is likely focused on the modern software layers that connect to the core industrial systems.
 Layer 1: Core Control (DCS/SIS): The deep, embedded systems. (Less likely for this role).
 Layer 2: Plant Operations Layer: Software with web dashboards (HMI), reporting tools, and databases that visualize plant data. (A very likely candidate).
 Layer 3: Advanced Analytics & Cloud Layer: Modern platforms using IoT, AI, and Digital Twins for predictive maintenance and optimization. (Also a very likely candidate).
 Putting It All Together: Answering the Big Question
 Mentor's Question: In the interview, if they ask you, "What do you think you'll be testing here?", how would you answer?
-My Polished Answer: "From my understanding of Yokogawa's business and the tools listed in the description, I believe the role is focused on the software layers that sit on top of the core control systems. I would expect to be testing applications like your OpreX operational dashboards or perhaps your asset management platforms. My role would likely involve using Selenium to ensure the web-based HMI is intuitive and functions correctly for plant engineers, while also using tools like Postman to verify the integrity of the real-time data being passed from the back-end servers through the APIs."
+My Polished Answer: "From my understanding of the business and the tools listed in the description, I believe the role is focused on the software layers that sit on top of the core control systems. I would expect to be testing applications like your OpreX operational dashboards or perhaps your asset management platforms. My role would likely involve using Selenium to ensure the web-based HMI is intuitive and functions correctly for plant engineers, while also using tools like Postman to verify the integrity of the real-time data being passed from the back-end servers through the APIs."
